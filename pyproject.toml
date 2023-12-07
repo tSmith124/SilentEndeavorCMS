@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "silentendeavorcms"
+version = "0.1.0"
+description = ""
+authors = ["Taylor Smith <tas0018@auburn.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.7"
+graphene-django = "^3.1.5"
+django-cors-headers = "^4.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
